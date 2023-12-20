@@ -1,0 +1,55 @@
+/* FinancialGoals.css */
+.financial-goals {
+    background-color: #f0f0f5; /* Light violet background */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a card-like effect */
+}
+
+.financial-goals h2 {
+    color: #5e4fa2; /* Dark violet heading */
+}
+
+.financial-goals h3 {
+    color: #5e4fa2; /* Dark violet subheading */
+}
+
+.financial-goals label {
+    display: block;
+    margin-bottom: 10px;
+    color: #5e4fa2; /* Dark violet label */
+}
+
+.financial-goals input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.financial-goals button {
+    background-color: #7c70b8; /* Medium violet button background */
+    color: #fff; /* White text for the button */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.financial-goals button:hover {
+    background-color: #665999; /* Darker shade on hover */
+}
+
+.financial-goals ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.financial-goals li {
+    background-color: #dcd8ff; /* Light violet shade for list items */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #5e4fa2; /* Dark violet text for list items */
+}

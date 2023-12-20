@@ -1,0 +1,40 @@
+/* ExpensePlanner.css */
+
+.expense-planner {
+    background-color: #f4f4f9; /* Light violet background */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a card-like effect */
+}
+
+.expense-planner h2 {
+    color: #5e548e; /* Violet heading */
+}
+
+.expense-planner p {
+    margin: 10px 0;
+    color: #7f8fa6; /* Grayish text */
+}
+
+.expense-planner ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-planner li {
+    background-color: #d5c0e7; /* Light violet list item background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 600px) {
+    .expense-planner li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

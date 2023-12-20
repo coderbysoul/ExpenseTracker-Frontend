@@ -1,0 +1,46 @@
+/* ExpenseForm.css */
+
+.expense-form {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a card-like effect */
+}
+
+.expense-form .heading {
+  color:#665999; /* Dark gray heading */
+}
+
+.expense-form-heading {
+  color:#665999;
+}
+
+.expense-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #7c70b8; /* Gray text */
+}
+
+.expense-form .recurring-container {
+  display: flex; /* Use flexbox to place items side by side */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.expense-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.expense-form button {
+  background-color: #7c70b8; /* Blue button */
+  color: #ecf0f1; /* White text */
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-form button:hover {
+  background-color: #665999; /* Darker blue on hover */
+}

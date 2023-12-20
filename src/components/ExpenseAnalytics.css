@@ -1,0 +1,18 @@
+/* ExpenseAnalytics.css */
+.expense-analytics {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.expense-analytics h2 {
+    color: #5e548e;
+}
+
+.expense-analytics p {
+    margin: 10px 0;
+    color: #665999;
+}
+
